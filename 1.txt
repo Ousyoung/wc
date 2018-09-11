@@ -1,3 +1,9 @@
-wc.exe -c file.c     //返回文件 file.c 的字符数
-  wc.exe -w file.c    //返回文件 file.c 的词的数目  
-  wc.exe -l file.c      //返回文件 file.c 的行数
+He is your field which you sow with love and reap with thanksgiving. 
+
+And he is your board and your fireside. 
+
+For you come to him with your hunger, and you seek him for peace. 
+
+When your friend speaks his mind you fear not the "nay" in your own mind, nor do you withhold the "ay." 
+
+And when he is silent your heart ceases not to listen to his heart; 
