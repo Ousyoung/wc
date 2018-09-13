@@ -8,7 +8,7 @@ public class Main {
 		String command = null;
 		String function = null;
 		String path = null;
-		System.out.println("\t WC.exe 使用说明:\n");
+		System.out.println("\t WC.exe 使用说明:\n"); // 用户使用提示
 		System.out.println("-c 文件 （返回该文件的字符数）\n");
 		System.out.println("-w 文件 （返回该文件的词的数目）\n");
 		System.out.println("-l 文件 （返回该文件的行数）\n");
@@ -16,7 +16,6 @@ public class Main {
 		System.out.println("-all 文件 （返回字符数，词，行等信息）\n");
 		System.out.println("-s 文件 （文件递归查找处理）\n");
 		System.out.println("-esc   （退出程序）\n");
-
 		System.out.print("请输入合理的命令:\n");
 		while (true) {
 			Scanner getIn = new Scanner(System.in);
@@ -42,7 +41,7 @@ public class Main {
 				else if (function.equals("-all"))
 					WC.allCount(path);
 				else if (function.equals("-s")) {
-					System.out.print("请输入文件迭代查找的关键字:\n");
+					System.out.print("请输入文件递归查找的关键字:\n");
 					Scanner getIn2 = new Scanner(System.in);
 					// 需要拿到指定字符串，这里的方法需要两个参数
 					WC.fileHandle(path, getIn2.nextLine());

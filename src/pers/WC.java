@@ -44,7 +44,6 @@ public class WC {
 		File file = new File(fileName);
 		BufferedReader bur = null;
 		String string = "";
-		Pattern pattern = Pattern.compile("\\d.\\d+|\\w+");
 		String line;
 		int wordNum = 0;
 		String words[] = null;
